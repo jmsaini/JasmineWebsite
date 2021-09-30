@@ -45,6 +45,12 @@
     background-color: #434853;
     border: none;
   }
+  p{
+    font-size: 9px;
+    color: #434853;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center; 
+  }
   h1{
     font-size: 2.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -102,11 +108,6 @@
  .fa-envelope:focus, .fa-linkedin:focus, .fa-github:focus, .fa-medium:focus, .fa-twitter:focus{
     text-decoration: none;
     color: #d1d1e6;
-  }
-  p{
-    font-size: 16px;
-    color: #c9c9c9;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
   }
   .intro{
     margin: auto;
@@ -213,7 +214,7 @@
     .intro{
       width: 89%;
       height: auto;
-      margin-bottom: 80px;
+      margin-bottom: 20px;
     }
     div, form{
       width: 100%;
