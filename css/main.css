@@ -181,6 +181,13 @@
     transition: .2s;
     color: #22262F;
   }
+  @media screen and (min-width: 1285px){
+    .intro{
+      width: 40%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
   @media screen and (max-width: 1033px){
     .navbar-brand{
       font-size: 23px;
