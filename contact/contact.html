@@ -11,9 +11,29 @@
     <div class="intro">
       <div class="nav">
         <a href="../index.html">Home</a>
-        <a href="../projects/projects.html">Projects</a>
+        <a href="../projects.html">Projects</a>
         <a class="active" href="/contact/contact.html">Contact</a>
-      </div>
+      </div>   
+      <div class="contact">
+        <center>
+        <h1>Contact</h1>
+        <form name="contact-form" id="contact-form" enctype="text/plain" action="">
+        <input class="contact-box" type="text" placeholder="Name (required)" required>
+        <input class="contact-box" type="text" placeholder="Email (required)" required><br>
+        <textarea class="textarea-field" placeholder="Message" rows="9"></textarea><br>
+        <br>
+        <button style="color: #c9c9c9;" type="submit" value="Submit" class="btn" onclick="sendMessage()">Send</button><br>
+         </form>
 
+        </center>
+       </div>
+       <p style="text-align:center; color: #c9c9c9; font-size: 1em;" id="submit"> </p>
+       <!-- <script>
+        function sendMessage() {
+            document.getElementById("submit").innerHTML = "Message received! Looking forward to answering.";
+            // document.getElementById("contact-form").reset();
+          }
+        }
+        </script> -->
 </body>
 </html>
