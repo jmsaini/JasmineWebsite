@@ -89,7 +89,7 @@
   }
   @keyframes fadeIn{
     from{
-    opacity: 0;
+    opacity: 0.20;
     }
     to{
     opacity: 1;
