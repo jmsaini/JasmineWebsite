@@ -56,8 +56,6 @@
     color: #f3f3f3;
     text-align: center;
     font-weight: 350;
-    animation-name: fadeIn;
-    animation-duration: 0.3s;
   }
   h2{
     font-size: 1.23em;
@@ -65,8 +63,6 @@
     color: #c9c9c9;
     font-weight: normal;
     line-height: 23px;
-    animation-name: fadeIn;
-    animation-duration: 0.3s;
   }
   h3 {
     margin-top: 133px;
