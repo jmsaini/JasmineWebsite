@@ -21,6 +21,15 @@
    border-radius: 50%;
    margin-bottom: -100px;
  }
+ .picture-div{
+  text-align: center;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+.picture{
+  width: 70px;
+  height: 50px;
+ }
  .nav {
   overflow: hidden;
  }
