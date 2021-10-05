@@ -20,7 +20,7 @@
    height: 203px;
    border-radius: 50%;
    margin-bottom: -100px;
-  }
+ }
  .nav {
   overflow: hidden;
  }
@@ -73,6 +73,9 @@
     color: #f3f3f3;
     text-align: center;
   }
+  ::placeholder {
+    color: #c9c9c9;
+  }
   h3 {
     animation: animatedText 1.3s steps(45, end) .5s 1 normal both;
   }
@@ -86,7 +89,7 @@
   }
   @keyframes fadeIn{
     from{
-    opacity: 0.20;
+    opacity: 0;
     }
     to{
     opacity: 1;
@@ -119,6 +122,7 @@
     background-color: #22262F;
     animation-name: fadeIn;
     animation-duration: 0.4s;
+    padding: 15px;
   }
   .projects{
     position: absolute;
@@ -182,20 +186,21 @@
     margin-bottom: 7px;
     font-size: 13px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background: #f3f3f3;
+    background: #434853;
     border-radius: 13px;
     box-shadow: 0px 0px 0px 0px #f3f3f3;
+    color: #f3f3f3;
   }
   .textarea-field{
     resize: none;
     overflow-y: visible;
-    color: #22262F;
+    color: #f3f3f3;
   }
   .contact-box:focus, .textarea-field:focus{
     outline: none;
     box-shadow: 0px 0px 0px 0px #f3f3f3;
     transition: .2s;
-    color: #22262F;
+    color: #f3f3f3;
   }
   @media screen and (min-width: 1285px){
     .intro{
