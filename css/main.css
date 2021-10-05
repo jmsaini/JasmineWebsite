@@ -85,6 +85,14 @@
       width: 194px;
     }
   }
+  @keyframes fadeIn{
+    from{
+    opacity: 0.20;
+    }
+    to{
+    opacity: 1;
+    }
+  }
   .fa{
     padding: 7px;
     width: 39px;
@@ -110,6 +118,8 @@
     width: 60%;
     height: 386px;
     background-color: #22262F;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
   }
   .projects{
     position: absolute;
