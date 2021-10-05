@@ -46,10 +46,9 @@
     border: none;
   }
   p{
-    font-size: 9px;
-    color: #434853;
+    font-size: 1.0em;
+    color: #c9c9c9;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    text-align: center; 
   }
   h1{
     font-size: 2.0em;
@@ -112,13 +111,32 @@
   .intro{
     margin: auto;
     margin-top: 20px;
-    padding-left: 13px;
-    width: 53%;
+    width: 60%;
     height: 386px;
-    padding-right: 13px;
+    background-color: #22262F;
   }
   .projects{
-    padding-left: 13px;
+    position: absolute;
+  }
+  .project-grid{
+    background: #22262F;
+    max-width: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 40px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+  }
+  .project{
+    background: #22262F;
+    padding: 1.9rem;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 16em;
+    width: 25em;
+    box-shadow: 0px 0px 1px 1px #434853;
+    border-radius: 13px;
   }
   .btn{
     background-color: #22262F;
@@ -187,10 +205,10 @@
       padding-right: 50px;
     }
   }
-  @media screen and (max-width: 952px){
+  @media screen and (max-width: 1000px){
     .navbar-brand{
-    font-size: 23px;
-    padding-left: 33px;
+      font-size: 23px;
+      padding-left: 33px;
     }
     h1{
       font-size: 1.8em;
@@ -215,6 +233,9 @@
       width: 89%;
       height: auto;
       margin-bottom: 20px;
+    }
+    .project-grid{
+      grid-template-columns: repeat(1, 1fr);
     }
     div, form{
       width: 100%;
