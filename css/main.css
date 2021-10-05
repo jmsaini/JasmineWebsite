@@ -115,14 +115,7 @@
     padding-left: 13px;
     width: 53%;
     height: 386px;
-    border-radius: 5px;
-    background-color: #22262F;
-    border-style: double;
-    border-color: #22262F;
     padding-right: 13px;
-    border-width: thick;
-    animation-name: fadeIn;
-    animation-duration: 0.3s;
   }
   .projects{
     padding-left: 13px;
