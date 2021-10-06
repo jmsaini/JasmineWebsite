@@ -31,7 +31,19 @@
   height: 50px;
 }
 .system{
+  width: 90px;
+  height: 40px;
+}
+.calendar, .save{
   width: 76px;
+  height: 40px;
+}
+.text{
+  width: 120px;
+  height: 30px;
+}
+.income{
+  width: 55px;
   height: 40px;
 }
  .nav {
