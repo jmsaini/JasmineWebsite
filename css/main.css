@@ -162,7 +162,6 @@
     margin-top: 20px;
     width: 55%;
     height: 386px;
-    margin-top: 100px;
     background-color: #F3F2F0;
     animation-name: fadeIn;
     animation-duration: 0.4s;
@@ -172,7 +171,6 @@
     margin: auto;
     padding-left: 200px;
     padding-right: 200px;
-    margin-top: 100px;
     animation-name: fadeIn;
     animation-duration: 0.4s;
   }
