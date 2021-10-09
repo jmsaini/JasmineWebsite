@@ -124,20 +124,25 @@
     font-weight: bold;
     color: #202020;
     text-align: center;
+    display: inline;
   }
   ::placeholder {
     color: #3B3B3B;
   }
-  h3 {
-    animation: animatedText 1.3s steps(45, end) .5s 1 normal both;
+  .blink{
+    animation: blinkCursor 1s infinite;
+    display: inline;
   }
-  @keyframes animatedText{
-    from{
-      width: 0;
-    }
-    to{
-      width: 194px;
-    }
+  @keyframes blinkCursor{
+      0%{     
+        color: #000;    
+      }
+      66%{    
+        color: #F3F2F0;  
+      }
+      100%{   
+        color: #000;    
+      }
   }
   @keyframes fadeIn{
     from{
@@ -270,6 +275,9 @@
     .navbar-brand{
       font-size: 25px;
       padding-right: 20px;
+    }
+    .projects{
+      padding: 0px;
     }
   }
   @media screen and (max-width: 1000px){
