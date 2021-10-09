@@ -27,24 +27,28 @@
     margin-bottom: 10px;
   }
   .sentiment{
-    width: 70px;
-    height: 50px;
+    width: 140px;
+    height: 105px;
   }
   .system{
-    width: 90px;
-    height: 40px;
+    width: 125px;
+    height: 120px;
   }
-  .calendar, .save{
-    width: 76px;
-    height: 40px;
+  .calendar{
+    width: 155px;
+    height: 125px;
+  }
+  .save{
+    width: 135px;
+    height: 88px;
   }
   .text{
     width: 120px;
-    height: 30px;
+    height: 50px;
   }
   .income{
-    width: 60px;
-    height: 50px;
+    width: 125px;
+    height: 105px;
   }
   .navbar{
     padding: 10px 5px 10px 0;
@@ -81,6 +85,11 @@
   .navbar-toggler{
     background-color: #f3f3f3;
     outline: none !important;
+    color: #202020 !important;
+  }
+  .navbar-toggler-icon{
+    color: #f3f3f3 !important;
+    outline: none !important;
   }
   hr{
     height: 1px;
@@ -95,14 +104,14 @@
   h1{
     font-size: 2.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #3B3B3B;
+    color: #202020;
     text-align: center;
     font-weight: 350;
   }
   h2{
     font-size: 1.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #3B3B3B;
+    color: #202020;
     font-weight: normal;
     line-height: 23px;
   }
@@ -113,7 +122,7 @@
     font-family: 'Source Code Pro', sans-serif;
     font-size: 1.8em;
     font-weight: bold;
-    color: #3B3B3B;
+    color: #202020;
     text-align: center;
   }
   ::placeholder {
@@ -146,7 +155,7 @@
     margin: 15px 3px;
   }
   .fa-envelope, .fa-linkedin, .fa-github, .fa-medium, .fa-twitter{
-    color: #3B3B3B;
+    color: #3d3838;
   }
   .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover, .fa-medium:hover, .fa-twitter:hover{
     color: #000000;
@@ -190,20 +199,20 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
-    height: 19.5em;
+    height: 23em;
     width: 25em;
     box-shadow: 0px 0px 1px 1px #c9c9c9;
     border-radius: 13px;
   }
   .btn{
-    background-color: #3B3B3B;
+    background-color: #202020;
     border-radius: 9px;
-    border-color: #3B3B3B;
+    border-color: #202020;
     width: 93px;
   }
   .btn:hover{
     outline: 0 !important;
-    background-color: #494949;
+    background-color: #3d3838;
     transition: .13s;
   }
   .btn:active, .btn:focus{
@@ -219,7 +228,7 @@
     background-color: #F3F2F0;
   }
   .contact{
-    padding-top: 38px;
+    padding-top: 10px;
     background: #F3F2F0;
     padding-bottom: 33px;
     animation-name: fadeIn;
@@ -242,13 +251,13 @@
   .textarea-field{
     resize: none;
     overflow-y: visible;
-    color: #3B3B3B;
+    color: #3d3838;
   }
   .contact-box:focus, .textarea-field:focus{
     outline: none;
-    border: 1px solid #3B3B3B;
-    box-shadow: 0px 0px 1px 1px #3B3B3B;
-    color: #3B3B3B;
+    border: 1px solid #202020;
+    box-shadow: 0px 0px 1px 1px #202020;
+    color: #202020;
   }
   @media screen and (min-width: 1285px){
     .intro{
@@ -259,13 +268,13 @@
   }
   @media screen and (max-width: 1033px){
     .navbar-brand{
-      font-size: 23px;
+      font-size: 25px;
       padding-right: 20px;
     }
   }
   @media screen and (max-width: 1000px){
     .navbar-brand{
-      font-size: 23px;
+      font-size: 25px;
       padding-left: 13px;
     }
     .navbar-nav{
@@ -285,10 +294,6 @@
       font-size: 2.3em;
       font-weight: 423;
     }
-    .avatar{
-      width: 183px;
-      height: 183px;
-    }
     .intro{
       width: auto;
       height: auto;
@@ -296,7 +301,6 @@
     }
     .projects{
       padding: 0px;
-      margin-top: 100px;
     }
     .project-grid{
       grid-template-columns: repeat(1, 1fr);
@@ -308,4 +312,3 @@
       width: 83%;
     }
 }
-
