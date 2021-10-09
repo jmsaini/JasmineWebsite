@@ -132,6 +132,7 @@
   .blink{
     animation: blinkCursor 1s infinite;
     display: inline;
+    font-weight: lighter;
   }
   @keyframes blinkCursor{
       0%{     
