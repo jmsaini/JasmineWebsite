@@ -135,13 +135,13 @@
   }
   @keyframes blinkCursor{
       0%{     
-        color: #000;    
+        color: #202020;    
       }
       66%{    
         color: #F3F2F0;  
       }
       100%{   
-        color: #000;    
+        color: #202020;    
       }
   }
   @keyframes fadeIn{
