@@ -121,7 +121,7 @@
     overflow: hidden;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.8em;
-    font-weight: bold;
+    font-weight: normal;
     color: #202020;
     text-align: center;
     display: inline;
@@ -132,7 +132,6 @@
   .blink{
     animation: blinkCursor 1s infinite;
     display: inline;
-    font-weight: lighter;
   }
   @keyframes blinkCursor{
       0%{     
