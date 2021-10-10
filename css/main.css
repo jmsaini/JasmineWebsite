@@ -25,6 +25,7 @@
     text-align: center;  
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 45px;
   }
   .sentiment{
     width: 190px;
@@ -161,6 +162,7 @@
   }
   .fa-envelope, .fa-linkedin, .fa-github, .fa-medium, .fa-twitter{
     color: #3d3838;
+    margin-top: 9px;
   }
   .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover, .fa-medium:hover, .fa-twitter:hover{
     color: #000000;
