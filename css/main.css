@@ -178,7 +178,7 @@
     height: 386px;
     background-color: #F3F2F0;
     animation-name: fadeIn;
-    animation-duration: 0.4s;
+    animation-duration: 0.55s;
     padding: 15px;
   }
   .projects{
@@ -186,7 +186,7 @@
     padding-left: 200px;
     padding-right: 200px;
     animation-name: fadeIn;
-    animation-duration: 0.4s;
+    animation-duration: 0.55s;
   }
   .project-grid{
     background: #F3F2F0;
