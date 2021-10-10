@@ -162,7 +162,7 @@
   }
   .fa-envelope, .fa-linkedin, .fa-github, .fa-medium, .fa-twitter{
     color: #3d3838;
-    margin-top: -9px;
+    margin-top: -3px;
   }
   .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover, .fa-medium:hover, .fa-twitter:hover{
     color: #000000;
