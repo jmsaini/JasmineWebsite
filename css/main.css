@@ -272,6 +272,18 @@
       height: auto;
       margin-bottom: 20px;
     }
+    .projects{
+      padding-left: 500px;
+      padding-right: 500px;
+    }
+    .navbar-brand{
+      font-size: 30px;
+      padding-left: 500px;
+    }
+    .project-grid{
+      grid-row-gap: 50px;
+      grid-column-gap: 50px;
+    }
   }
   @media screen and (max-width: 1033px){
     .navbar-brand{
