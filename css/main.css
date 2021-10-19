@@ -336,6 +336,10 @@
     .project-grid{
       grid-template-columns: repeat(1, 1fr);
     }
+    .project{
+     height: 28em;
+     width: 19em;
+   }
     div, form{
       width: 100%;
     }
