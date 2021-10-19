@@ -15,6 +15,14 @@
   body{
     background-color: #F3F2F0;
   }
+  footer {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+  }
   .avatar{
    width: 183px;
    height: 183px;
@@ -126,6 +134,11 @@
     color: #202020;
     text-align: center;
     display: inline;
+  }
+  h4 {
+    font-size: 0.5em;
+    color: #c9c9c9;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   }
   ::placeholder {
     color: #3B3B3B;
@@ -311,10 +324,6 @@
     }
     h3{
       font-size: 1.8em;
-    }
-    h4{
-      font-size: 2.3em;
-      font-weight: 423;
     }
     .intro{
       width: auto;
