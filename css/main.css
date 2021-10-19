@@ -315,12 +315,15 @@
     .navbar-nav{
       margin-left: 0px;
     }
+    p {
+    font-size: 0.7em;
+    }
     h1{
       font-size: 1.7em;
       font-weight: 423;
     }
     h2{
-      font-size: 1.0em;
+      font-size: 0.8em;
     }
     h3{
       font-size: 1.8em;
