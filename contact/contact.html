@@ -53,6 +53,9 @@
        <footer><h4>Built and Designed by Jasmine.</h4></footer>
        <script>
         function sendMessage() {
+          var name = document.getElementById("entry.2005620554").value;
+          var email = document.getElementById("entry.1045781291").value;
+          if (!(name == '') && !(email == '')) {
             alert("Message received! Looking forward to answering.")
             // document.getElementById("submit").innerHTML = "Message received! Looking forward to answering.";
             // document.getElementById("contact-form").reset();
