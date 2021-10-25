@@ -56,15 +56,13 @@
         function sendMessage() {
           var name = document.getElementById("entry.2005620554").value;
           var email = document.getElementById("entry.1045781291").value;
-          var load_pg = false;  
+          // var load_pg = false;  
           if (email.includes('@') && !(name == '') && !(email == '')) {
             alert("Message received! Looking forward to answering.")
-            load_pg = true;
+            // load_pg = true;
             // document.getElementById("submit").innerHTML = "Message received! Looking forward to answering.";
             // document.getElementById("contact-form").reset();
-          } if (load_pg){
-            location.reload();
-          }
+          } // if (load_pg){location.reload();}
         }
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
