@@ -72,7 +72,7 @@
     font-family: 'Poppins', sans-serif;
   }
   .navbar-nav{
-    margin-left: 400px;
+    margin-left: 470px;
   }
   .navbar .navbar-nav li a{
     font-size: 19px;
@@ -316,7 +316,7 @@
       margin-left: 0px;
     }
     p {
-      font-size: 0.89em;
+      font-size: 0.95em;
     }
     h1{
       font-size: 1.7em;
@@ -342,7 +342,7 @@
     }
     .project{
      height: 25em;
-     width: 20em;
+     width: 23em;
    }
     div, form{
       width: 100%;
