@@ -38,14 +38,14 @@
         <center>
         <h1><b>Contact</b></h1>
         <h2>Email: <a style="color: #000; text-decoration: underline;" href="mailto: jasminemsaini@outlook.com">jasminemsaini@outlook.com</a><br>or you can use the form below!</h2>
-        <form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf1qZn_wa-bFw0o8eC59uBMcCvlSiRHCpNtiWsakg58L2kAPA/formResponse?" target="hide">
+        <form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf1qZn_wa-bFw0o8eC59uBMcCvlSiRHCpNtiWsakg58L2kAPA/formResponse?" target="hide" onsubmit="sent=true">
         <input class="contact-box" type="text" placeholder="Name (required)" name="entry.2005620554" id="entry.2005620554" required>
         <input class="contact-box" type="email" placeholder="Email (required)" name="entry.1045781291" id="entry.1045781291" required><br>
         <textarea class="textarea-field" placeholder="Message" rows="9" name="entry.839337160" id="entry.839337160"></textarea><br>
         <br>
         <button style="color: #f3f3f3;" type="submit" value="Submit" class="btn" onclick="sendMessage()">Send</button><br>
          </form>
-        <iframe name="hide" id="hide" style="display: none;"></iframe>
+        <iframe name="hide" id="hide" style="display: none;" onload="if(sent){window.location.reload();}"></iframe>
         </center>
        </div>
        <br>
