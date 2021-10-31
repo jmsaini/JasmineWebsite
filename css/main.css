@@ -342,7 +342,7 @@
     }
     .project{
      height: 25em;
-     width: 23em;
+     width: auto;
    }
     div, form{
       width: 100%;
