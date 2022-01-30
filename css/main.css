@@ -173,16 +173,16 @@
     text-decoration: none;
     margin: 15px 3px;
   }
-  .fa-envelope, .fa-linkedin, .fa-github, .fa-medium, .fa-twitter{
+  .fa-envelope, .fa-linkedin, .fa-github, .fa-medium, .fa-twitter, .fa-instagram{
     color: #3d3838;
     margin-top: -3px;
   }
-  .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover, .fa-medium:hover, .fa-twitter:hover{
+  .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover, .fa-medium:hover, .fa-twitter:hover, .fa-instagram:hover{
     color: #000000;
     transition: .30s;
     text-decoration: none;
   }
- .fa-envelope:focus, .fa-linkedin:focus, .fa-github:focus, .fa-medium:focus, .fa-twitter:focus{
+ .fa-envelope:focus, .fa-linkedin:focus, .fa-github:focus, .fa-medium:focus, .fa-twitter:focus, .fa-instagram:focus{
     text-decoration: none;
     color: #000000;
   }
